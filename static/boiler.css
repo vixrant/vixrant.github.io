@@ -1,0 +1,47 @@
+a[href] {
+    color: #B1946C;
+}
+
+a[href]:visited {
+    color: #B1946C;
+    /* color: #6F6F6F; */
+}
+
+a[href]:hover {
+    color: #E0D5C5;
+}
+
+h2 {
+    color: #00f;
+    margin-bottom: .25em;
+    color: #000;
+}
+
+#classes {
+    margin-top: 2em;
+    font-size: 125%;
+    font-weight: bold;
+    color: #00f;
+}
+
+.small {
+    margin-top: 0;
+}
+
+.small li {
+    list-style-type: none;
+    margin-bottom: .5em;
+}
+
+/* Paragraphs of text */
+p {
+    text-align: justify;
+    text-justify: inner-word;
+}
+
+/* For large screens, p width is 50% of screen width */
+@media only screen and (min-width: 1200px) {
+    p {
+        width: 50%;
+    }
+}
