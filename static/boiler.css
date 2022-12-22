@@ -1,3 +1,7 @@
+body {
+    font-family: Helvetica, Calibri, Arial, sans-serif;
+}
+
 a[href] {
     color: #B1946C;
 }
@@ -15,6 +19,10 @@ h2 {
     color: #00f;
     margin-bottom: .25em;
     color: #000;
+}
+
+h3 {
+    margin: 0;
 }
 
 #classes {

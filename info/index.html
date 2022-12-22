@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="Website for Vikrant Gajria">
+    <meta name="keywords" content="Vikrant Gajria, Vikrant, Gajria, Vikrant Gajria Portfolio, Vikrant Gajria Website, Vikrant Gajria Portfolio Website, Vikrant Gajria Portfolio Website">
+    <meta name="author" content="Vikrant Gajria">
+
+    <!-- Do not index this page -->
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
+
+    <link rel="stylesheet" href="/static/boiler.css">
+
+    <title>Vikrant Gajria</title>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <a href="/">Home</a>
+        <a href="/info/index.html">Info</a>
+    </nav>
+    
+    <br><br>
+    <mark>Last updated: 2022-12-22</mark>
+
+    <!-- Work experience content -->
+    <section>
+        <h1 style="margin-bottom: 0;">Professional Experience</h1>
+        <hr>
+    </section>
+
+    <article>
+        <h2>Graduate Teaching Assistant</h2>
+        <b>Aug. ’22 - May. ’23</b><br>
+        <h3>Purdue, West Lafayette</h3>
+        <ul>
+            <li>Teaching assistant for CS 525: Parallel Computing</li>
+            <li>Teaching assistant for CS 250: Computer Architecture</li>
+            <li>Graded assignments, held office hours, and helped students in laboratory</li>
+        </ul>
+
+        <h2>Compiler R&D Intern</h2>
+        <b>May. ’22 - Aug. ’22</b><br>
+        <h3>Synopsys, Mountain View</h3>
+        <ul>
+            <li>Researched utility of AI models in LLVM middle-end to reduce compilation time.</li>
+            <li>Reduced compilation time of SystemVerilog benchmarks by upto 20% without degradation of runtime performance by finding optimal pass pipelines using Genetic Algorithms.</li>
+            <li>Developed analysis passes to dump LLVM function features for ML model training.</li>
+            <li>Trained and implemented XGBoost model to predict best optimization level for given functions.</li>
+            <li>Extended pass manager to use supervised-learning heuristics for customization of pass pipelines per function.</li>
+        </ul>
+
+        <h2>Miscellaneous</h2>
+        These are full-stack web software development experiences.
+        <ul>
+            <li>Graduate Research Assistant: CISTAR at Purdue, Aug. '21 - May '22</li>
+            <li>Software Development Intern: LIDO Learning, Mumbai, June '19 - Aug. '19</li>
+            <li>Software Development Intern: Checkapp, Mumbai, June '19 - Aug. '19</li>
+        </ul>
+
+    </article>
+    <!-- ----------------------- -->
+
+    <!-- Projects content -->
+    <section>
+        <h1 style="margin-bottom: 0;">Archieve of Projects</h1>
+        <hr>
+    </section>
+
+    <article>
+        <h2>OS kernel modifications for Xinu</h2>
+        <b>Aug. ’22 - Dec. ’22</b><br>
+        <i>[C, x86, Xinu]</i>
+        <ul>
+            <li>Added isolation of user-mode processes by implemnting trapped system calls using interrupts in x86.</li>
+            <li>Implemented multilevel feedback queue for O(1) time-shared and real-time process scheduling.</li>
+            <li>Designed virtual memory frame management with O(1) operations for fast page fault servicing.</li>
+            <li>Implemented paging and virtual memory heap memory management from scratch on 32-bit x86 platform.</li>
+        </ul>
+
+        <h2>GPU acceleration of k-SAT solving</h2>
+        <b>Jan. ’22 - Present</b><br>
+        <i>[C, OpenMP, C++, CUDA]</i>
+        <ul>
+            <li>Studied problem decomposition to accelerate DPLL SAT solving algorithm on SIMT architectures.</li>
+            <li>Developed C++ OpenMP kernels to eliminate boolean clauses from CNF expression using unit propagation.</li>
+            <li>Improved runtime performance over serial algorithm by upto 72% with 32 threads on Intel Xeon 32-core CPU.</li>
+        </ul>
+
+        <h2>Memory profiling and characteristic analysis of CUDA programs</h2>
+        <b>Jan. ’22 - May ’22</b><br>
+        <i>[C, Python, NVBit]</i>
+        <ul>
+            <li>Developed instrumentation programs using NVBit in C++ to log memory addresses accessed by CUDA kernel.</li>
+            <li>Modeled runtime load-store relationship of memory accesses as a directed graph for analysis in Python.</li>
+            <li>Studied the relationship graph with plotting libraries and identified instructions that produce frequently used
+                data using heavy-tail distribution.</li>
+        </ul>
+        
+        <h2>LLVM frontend and optimization passes for subset of C language</h2>
+        <b>Aug. ’21 - Dec. ’21</b><br>
+        <i>[C++, LLVM]</i>
+        <ul>
+            <li>Translated source code to LLVM SSA translation for language specification using recursive-descent parser.</li>
+            <li>Developed LLVM passes for constant folding, dead block elimination, and loop invariant code motion.</li>
+            <li>Studied and implemented Chaitin-Brigg’s algorithm for register allocation and spilling.</li>
+        </ul>
+        
+        <h2>Compiler and virtual machine for IEC 61131</h2>
+        <b>Oct. ’20 - May ’21</b><br>
+        <i>[C++, CMake, Catch2, ANTLR4, Python]</i>
+        <ul>
+            <li>Developed two-phase compiler for “Structured Text” language to a stack machine using C++ and ANTLR4.</li>
+            <li>Engineered a stack-based bytecode interpreter based on Pascal-P ISA in C.</li>
+            <li>Automated testing of code generator with hand-written examples using Catch2.</li>
+        </ul>
+        
+        <h2>Video hand gesture recognition using 3D point cloud data</h2>
+        <b>Aug. ’20 - May ’21</b><br>
+        <i>[Python, Tensorflow]</i>
+        <ul>
+            <li>Achieved 96.4% accuracy of video gesture recognition using ResNet18 and 1D CNN in Tensorflow.</li>
+            <li>Developed Tensorflow computation graph functions for GPU-accelerated preprocessing of input data.</li>
+            <li>Deployed input video input recording and model inference workers as producer-consumer threads in Python.</li>
+        </ul>
+        </article>
+    <!-- ---------------- -->
+
+
+    <!-- Academics content -->
+    <section>
+        <h1 style="margin-bottom: 0;">Academics and Learnings</h1>
+        <hr>
+    </section>
+
+    <article>
+        <h2>🇺🇸 Purdue University</h2>
+        <b>Aug. '21 - May '23</b>
+        <h3>Master of Science, Computer Science, GPA 4.0</h3>
+
+        <details>
+            <summary>View details</summary>
+
+            Most of the courses below have an A grade (4.0 GPA).
+            &#8224; marked courses have an A+ grade (4.0 GPA for MS).
+            <br><br>
+
+            <b>Fall 2022</b>
+            <ul>
+                <li><i>CS503: Operating Systems &#8224;</i></li>
+                <ul>
+                    <li>Practised on modifying Xinu kernel
+                        using C and x86 assembly
+                    </li>
+                    <li>Implemented demand paging, preemptible IPC, kernel-mode
+                        isolation and multi-level feedback queues scheduler
+                    </li>
+                </ul>
+
+                <li><i>CS565: Programming Languages</i></li>
+                <ul>
+                    <li>Studied 
+                        <a href="https://softwarefoundations.cis.upenn.edu/lf-current/index.html">
+                            Logical Foundations</a> and
+                        <a href="https://softwarefoundations.cis.upenn.edu/plf-current/index.html">
+                            Programming Language Foundations</a>
+                        in <a href="https://coq.inria.fr">Coq</a>.
+                    </li>
+                    <li>Solved assignments on type systems, lambda calculus, and
+                        compiler verification</li>
+                    <li>Verified programs using
+                        <a href="https://dafny.org">Dafny</a>
+                    </li>
+                </ul>
+
+                <li><i>CS590: Individual Study - GPU accelerated k-SAT solving</i></li>
+                <ul>
+                    <li>Translated k-SAT solving algorithm to CUDA</li>
+                    <li>Optimized the kernel using memory coalescing and shared memory</li>
+                </ul>
+            </ul>
+
+            <b>Spring 2022</b>
+            <ul>
+                <li><i>CS525: Parallel Computing &#8224;</i></li>
+                <ul>
+                    <li>Studied architecture considerations, performance
+                        analysis, parallel programming models and algorithms, and more.
+                    </li>
+                    <li>Developed programming assignments on parallel algorithms
+                        and techniques in Pthreads and OpenMPI, and benchmarked
+                        the performance of the programs.
+                    </li>
+                    <li>
+                        Developed an OpenMP based k-SAT solver and benchmarked it
+                        using the <a href="https://www.cs.ubc.ca/~hoos/SATLIB/benchm.html">
+                            SATLIB benchmarks</a> against comparable serial solver.
+                    </li>
+                </ul>
+
+                <li><i>CS592: Seminar Course - Compiler-Architecture Codesign</i></li>
+                <ul>
+                    <li>Studied papers on Soft Error Resilience, Repurposing HW for
+                        Data Race Detection, Memory Safety, Persistent Memory,
+                        Timing Speculation, Intermittent computing, Compiler-OS Interaction,
+                        and Security.
+                    </li>
+                    <li>Studied CUDA and NVBit for program analysis using
+                        binary instrumentation.
+                    </li>
+                </ul>
+            </ul>
+
+            <b>Fall 2021</b>
+            <ul>
+                <li><i>CS580: Algorithms Design, Analysis, and Implementation &#8224;</i></li>
+                <ul>
+                    <li>Studied algorithms for graph problems, dynamic programming,
+                        and greedy algorithms, linear programming, and more.
+                    </li>
+                    <li>Solved assignments on designing optimal algorithms,
+                        analyzing their time and space complexity, and proving
+                        their correctness.
+                    </li>
+                </ul>
+
+                <li><i>CS565: Reasoning about Programs</i></li>
+                <ul>
+                    <li>Studied the foundations of program verification and
+                        formal methods, SAT and SMT solvers, and more.
+                    </li>
+                    <li>
+                        Learned about program synthesis and developed a project
+                        on SQL query synthesis using
+                        <a href="https://www.microsoft.com/en-us/research/group/prose/">
+                        Prose</a>.
+                    </li>
+                </ul>
+
+                <li><i>CS502: Compiling and Programming Systems</i></li>
+                <ul>
+                    <li>Studied recursive-descent parsing, semantic analysis,
+                        LLVM analyses and optimzations, register allocation, and more.
+                    </li>
+                    <li>Solved assignments on implementing an optimizing compiler
+                        for a subset of C in LLVM 3.4.
+                    </li>
+                </ul>
+            </ul>
+        </details>
+    </article>
+
+    <article>
+        <h2>🇮🇳 Mumbai University</h2>
+        <b>Aug. '17 - May '21</b>
+        <h3>Bachelor of Engineering, Computer Engineering, GPA 3.9</h3>
+
+        <details>
+            <summary>View details</summary>
+
+            Most of the courses below have an O grade (4.0 GPA).
+            * marked courses have an A grade (3.6 GPA).
+            &#8224; marked courses are electives.
+            Courses unrelated to CS are removed.
+            Tech used is mentioned in [ ] brackets.
+            <br><br>
+
+            <b>Spring 2021</b>
+            <ul>
+                <li><i>CSC801: Human Machine Interaction [Theory]</i></li>
+                <li><i>CSC802: Distributed Computing [Java]</i></li>
+                <li><i>CSCDLO8011: High Performance Computing &#8224; [C]</i></li>
+            </ul>
+
+            <b>Fall 2020</b>
+            <ul>
+                <li><i>CSC701: Digital Signal & Image Processing [C]</i></li>
+                <li><i>CSC702: Mobile Communication & Computing [JS]</i></li>
+                <li><i>CSC703: Artificial Intelligence & Soft Computing [Python]</i></li>
+                <li><i>CSCDLO7012: Big Data & Analytics &#8224; [Python]</i></li>
+            </ul>
+
+            <b>Spring 2020</b>
+            <ul>
+                <li><i>CSC601: Software Engineering [Theory]</i></li>
+                <li><i>CSC602: System Programming and Compiler Construction [C]</i></li>
+                <li><i>CSC603: Data Warehousing and Mining [Python]</i></li>
+                <li><i>CSC604: Cryptography and System Security [C]</i></li>
+                <li><i>CSCDLO6011: Machine Learning &#8224; [Python]</i></li>
+            </ul>
+
+            <b>Fall 2019</b>
+            <ul>
+                <li><i>CSC501: Microprocessor * [8086]</i></li>
+                <li><i>CSC502: Database Management System [SQL]</i></li>
+                <li><i>CSC503: Computer Network [C]</i></li>
+                <li><i>CSC504: Theory of Computer Science [Theory]</i></li>
+                <li><i>CSCDLO5013: Advance Algorithm &#8224; [C]</i></li>
+                <li><i>CSL504: Web Design [HTML, CSS, JS, PHP]</i></li>
+            </ul>
+
+            <b>Spring 2019</b>
+            <ul>
+                <li><i>CSC402: Analysis of Algorithms [C]</i></li>
+                <li><i>CSC403: Computer Organization and Architecture [VHDL]</i></li>
+                <li><i>CSC404: Computer Graphics [C]</i></li>
+                <li><i>CSC405: Operating Systems [C, Bash]</i></li>
+                <li><i>CSL405: Open-source Technology [Python, Perl]</i></li>
+            </ul>
+
+            <b>Fall 2018</b>
+            <ul>
+                <li><i>CSC302: Digital Logic Design and Analysis [Electronics]</i></li>
+                <li><i>CSC303: Discrete Mathematics [Theory]</i></li>
+                <li><i>CSC304: Electronic Circuits & Communication Fundamentals * [Electronics]</i></li>
+                <li><i>CSC305: Data Structures [C]</i></li>
+                <li><i>CSL304: Object Oriented Programming [Java]</i></li>
+            </ul>
+
+            <b>Spring 2018</b>
+            <ul>
+                <li><i>FEC205: Structured Programming Approach [C]</i></li>
+            </ul>
+
+        </details>
+    </article>
+
+    <!-- ----------------- -->
+</body>
+</html>
